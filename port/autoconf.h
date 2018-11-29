@@ -39,7 +39,7 @@
 #endif
 #endif
 
-#if defined(_POSIX_VERSION) || defined(__CYGWIN__)
+#if (defined(_POSIX_VERSION) || defined(__CYGWIN__)) && !defined(__APPLE__)
 #define USE_TERMIO
 #else
 #undef USE_TERMIO

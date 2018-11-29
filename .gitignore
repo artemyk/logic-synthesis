@@ -106,3 +106,6 @@ logic-synthesis-bin-1.4.tar.gz
 logic-synthesis-bin-1.4-1-x86_64.pkg.tar.xz
 src/
 pkg/
+
+# Makefiles
+Makefile
